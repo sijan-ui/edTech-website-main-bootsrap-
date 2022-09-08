@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .course{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -28,6 +31,16 @@
     width: 872px;
 height: 710px;
 }
+.last{
+    background-color: #161616;
+    width: 100%;
+    height: 472px;
+}
+.coder{
+    width: 321px;
+height: 212px;
+}
+
 @media  screen and (max-width: 576px) {
     .course{
         display: grid;
@@ -44,5 +57,8 @@ height: 710px;
     .ready{
         width: 460px; 
         height: 300px;
+    }
+    .companies{
+        display: none;
     }
 }
