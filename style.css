@@ -21,6 +21,9 @@
     width: 1250px; 
     height: 200px;
 }
+.fa-star{
+    color: #F59E0B;
+}
 @media  screen and (max-width: 576px) {
     .course{
         display: grid;
