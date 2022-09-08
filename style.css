@@ -24,6 +24,10 @@
 .fa-star{
     color: #F59E0B;
 }
+.ans-question{
+    width: 872px;
+height: 710px;
+}
 @media  screen and (max-width: 576px) {
     .course{
         display: grid;
