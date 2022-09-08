@@ -10,11 +10,32 @@
 .popular-course h1{
     font-weight: bold;
 }
+.card-details{
+    width: 606px;
+}
+.ratting{
+    display: flex;
+    justify-content: space-around;
+}
+.ready{
+    width: 1250px; 
+    height: 200px;
+}
 @media  screen and (max-width: 576px) {
     .course{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 335px;
     }
-    
+    .card-details{
+        width: 400px;
+    }
+    .ratting{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ready{
+        width: 460px; 
+        height: 300px;
+    }
 }
