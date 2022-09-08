@@ -1,0 +1,20 @@
+.course{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.popular-course{ 
+    margin-top: 50px;
+    width: 606px;
+    height: 190px;
+}
+.popular-course h1{
+    font-weight: bold;
+}
+@media  screen and (max-width: 576px) {
+    .course{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 335px;
+    }
+    
+}
